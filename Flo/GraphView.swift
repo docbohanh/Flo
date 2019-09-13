@@ -16,7 +16,7 @@ import UIKit
         static let topBorder: CGFloat = 60
         static let bottomBorder: CGFloat = 50
         static let colorAlpha: CGFloat = 0.3
-        static let circleDiameter: CGFloat = 5.0
+        static let circleDiameter: CGFloat = 8.0
     }
     
     //Label outlets
