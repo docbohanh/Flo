@@ -14,6 +14,7 @@
 		FA41364C232A2AFA00405019 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA41364A232A2AFA00405019 /* LaunchScreen.storyboard */; };
 		FA413654232A2D2F00405019 /* PushButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA413653232A2D2F00405019 /* PushButton.swift */; };
 		FA413656232A316700405019 /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA413655232A316700405019 /* CounterView.swift */; };
+		FA41365A232B35D700405019 /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA413659232B35D700405019 /* GraphView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		FA41364D232A2AFA00405019 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA413653232A2D2F00405019 /* PushButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushButton.swift; sourceTree = "<group>"; };
 		FA413655232A316700405019 /* CounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
+		FA413659232B35D700405019 /* GraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				FA413643232A2AF900405019 /* ViewController.swift */,
 				FA413653232A2D2F00405019 /* PushButton.swift */,
 				FA413655232A316700405019 /* CounterView.swift */,
+				FA413659232B35D700405019 /* GraphView.swift */,
 				FA413645232A2AF900405019 /* Main.storyboard */,
 				FA413648232A2AFA00405019 /* Assets.xcassets */,
 				FA41364A232A2AFA00405019 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA41365A232B35D700405019 /* GraphView.swift in Sources */,
 				FA413644232A2AF900405019 /* ViewController.swift in Sources */,
 				FA413642232A2AF900405019 /* AppDelegate.swift in Sources */,
 				FA413654232A2D2F00405019 /* PushButton.swift in Sources */,
@@ -297,7 +301,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = dev.thanhla.Flo.Flo;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.thanhla.Flo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -315,7 +319,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = dev.thanhla.Flo.Flo;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.thanhla.Flo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
